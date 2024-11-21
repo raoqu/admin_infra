@@ -1,0 +1,32 @@
+.admin-layout {
+  min-height: 100vh;
+}
+
+.admin-sider .ant-menu-item-selected {
+  background-color: #1890ff !important;
+}
+
+.admin-sider .ant-menu-item:hover {
+  background-color: rgba(24, 144, 255, 0.7) !important;
+}
+
+.admin-header {
+  padding: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-content {
+  margin: 24px 16px;
+  padding: 24px;
+  background: #fff;
+  min-height: 280px;
+}
+
+.logo-placeholder {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
